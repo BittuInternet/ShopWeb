@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <title>Notifications - Bittu Internet</title>
+  <style>
+    /* styles.css */
+
+    /* Reset & Base */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      background-color: #007BFF;
+      color: white;
+      padding: 20px 30px;
+    }
+
+    .header-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo {
+      height: 80px;
+      width: auto;
+      margin-right: 20px;
+    }
+
+    .header-text h1 {
+      font-size: 2rem;
+    }
+
+    .header-text p {
+      font-size: 1rem;
+      margin-top: 5px;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: #0056b3;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Main Section */
+    main {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #007BFF;
+      margin-bottom: 15px;
+    }
+
+    section p,
+    section li {
+      line-height: 1.6;
+    }
+
+    /* Pricing Table */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background-color: white;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    table th,
+    table td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: left;
+    }
+
+    table th {
+      background-color: #007BFF;
+      color: white;
+    }
+
+    table tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    .notification-image {
+      max-width: 100%;
+      height: auto;
+      margin-top: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    /* Contact Info */
+    section strong {
+      color: #000;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    .header-container img {
+      border-radius: 50%;
+    }
+
+    table {
+      text-align: center;
+    }
+
+    td ol {
+      margin-left: 10px;
+    }
+
+    td ul {
+      margin-left: 10px;
+    }
+    section p{
+      text-align: justify;
+    }
+    table{
+       text-align: justify;
+    }
+    .job-alert {
+      background: linear-gradient(135deg, #004d99, #0073e6);
+      color: #fff;
+      padding: 20px 25px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      max-width: 600px;
+      margin: 30px auto;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .job-alert::before {
+      content: '📢';
+      font-size: 2rem;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+
+    .job-alert h3 {
+      margin: 0 0 10px 40px;
+      font-size: 1.5rem;
+    }
+
+    .job-alert p {
+      margin: 0 0 10px 40px;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    .job-alert a {
+      color: #fff;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      .job-alert {
+        margin: 20px;
+        padding: 15px;
+      }
+
+      .job-alert h3,
+      .job-alert p {
+        margin-left: 30px;
+        font-size: 1rem;
+      }
+
+      .job-alert::before {
+        font-size: 1.5rem;
+        top: 15px;
+        left: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <img src="img/logo.png" alt="Logo" class="logo" />
+      <div class="header-text">
+        <h1>Bittu Internet</h1>
+        <p>Your One-Stop Digital Solution</p>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="notifications.html">Latest Notification</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Latest Notifications</h2>
+
+    <div class="job-alert">
+    <h3>Alert: Munger University UG Admission</h3>
+    <p>B.A./ BSc./ B.Com/ B.C.A./ B.B.A. Last date to apply: <strong>10th June 2025</strong>.</p>
+    <p><a href="#MU">Click here to see Full Details</a></p>
+    </div>
+
+
+
+
+
+
+
+    <section>
+      <img src="NotiFication Img/BPSSC.jpeg" alt="BPSSC Enforcement Sub Inspector ESI Vacancy 2025" class="notification-image" /><br>
+      <p><b>Bihar Police Subordinate Services Commission (BPSSC) </b> online applications for recruitment to the post of Enforcement Sub Inspector (ESI) for 33 vacancies under Transport Department. All eligible and interested male and female candidates can apply online from 30th May 2025 to till the application last date 30th June 2025 for Enforcement Sub Inspector recruitment in BPSSC.</p><br>
+
+      <table>
+        <tr>
+          <th style="text-align: center;">Important Dates</th>
+          <th style="text-align: center;">Application Fee</th>
+        </tr>
+          <td>
+            <ul>
+              <li>Application Start Date: 30-05-2025</li>
+              <li>Application Last Date: 30-06-2025</li>
+              <li>Fee Payment Last Date: 30-06-2025</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>UR/ EBC/ BC/ EWS: Rs.700/-</li>
+              <li>SC/ ST/ All Female: Rs.400/-</li>
+              <li>Form Filling Fee: Rs. 50/-</li>
+            </ul>
+          </td>
+          <tr>
+          <th style="text-align: center;">Age Limit</th>
+          <th style="text-align: center;">Total Post</th>
+        </tr>
+          <td>
+            Age as on : 01.08.2025
+            <ul>
+              <li>Minimum Age: 21 Years</li>
+              <li>Maximum Age: 37 Years</li>
+              <li>(For Age Relaxation See Notification.)</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>33</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table>
+        <tr>
+          <th colspan="2" style="text-align: center;">BPSSC Enforcement Sub Inspector Eligibility Criteria 2025</th>
+        </tr>
+        <tr>
+          <td><b><u>Educational Qualification:-</b> </u>The minimum educational qualification as on 01.08.2025 should be Graduation or its equivalent degree from a recognized University.</td>
+        </tr>
+        <tr>
+          <td><b>Documents Required</b> :- <br><br>
+          <ul>
+            <li>Educational Qualification</li>
+            <li>Aadhar Card</li>
+            <li>Passport Size Photo</li>
+            <li>Mobile No.</li>
+            <li>E-mail Id</li>
+          </ul>
+          </td>
+        </tr>
+      </table>
+
+
+      <table>
+        <tr>
+          <th colspan="2" style="text-align: center;">BPSSC Enforcement Sub Inspector Vacancy 2025 Details</th>
+        </tr>
+        <tr>
+          <td style="text-align: center;"><b>Category</b></td>
+          <td style="text-align: center;"><b>Total Post</b></td>
+        </tr>
+        <tr>
+          <td>UR</td>
+          <td>19</td>
+        </tr>
+        <tr>
+          <td>EBC</td>
+          <td>02</td>
+        </tr>
+        <tr>
+          <td>BC</td>
+          <td>09</td>
+        </tr>
+        <tr>
+          <td>EWS</td>
+          <td>03</td>
+        </tr>
+        <tr>
+          <td style="text-align: center;"><b>Grand Total</b></td>
+          <td><b>33</b></td>
+        </tr>
+      </table>
+
+
+      <table>
+        <tr>
+          <th colspan="3" style="text-align: center;">BPSSC ESI Physical Standard Test (PST) 2025</th>
+        </tr>
+        <tr>
+          <td style="text-align: center;"><b>Gender</b></td>
+          <td style="text-align: center;"><b>Height</b></td>
+          <td style="text-align: center;"><b>Chest</b></td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">Male</td>
+          <td style="text-align: center;">165 cm</td>
+          <td style="text-align: center;">79-84 cm</td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">Female</td>
+          <td style="text-align: center;">150 cm</td>
+          <td style="text-align: center;">x</td>
+        </tr>
+      </table>
+
+
+      <table>
+        <tr>
+          <th colspan="2" style="text-align: center;">BPSSC ESI Physical Efficiency Test (PET) 2025</th>
+        </tr>
+        <tr>
+          <td style="text-align: center;"><b>Male</b></td>
+          <td style="text-align: center;"><b>Female</b></td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">Walk 25 Km within 4 hours</td>
+          <td style="text-align: center;">Walk 14 Km within 4 hours</td>
+        </tr>
+      </table>
+    </section>
+
+
+
+    <section>
+      <img src="NotiFication Img/nda.jpeg" alt="UPSC NDA 2 Exam 2025 Apply Online Form" class="notification-image" /><br>
+      <p><b>Union Public Service Commission (UPSC) </b>  invites online applications for recruitment to the post of National Defence Academy (NDA) & Naval Academy (NA) Examination (II) 2025 for 406 vacancies. An Examination will be conducted by the Union Public Service Commission on 14th September 2025 for admission to the Army, Navy and Air Force wings of the NDA for the 156th Course and for the 118th Indian Naval Academy Course (INAC) commencing from 1st July 2026. All eligible and interested male and female candidates can apply online from 28th May 2025 to till the application last date 17th June 2025 for NDA 2 examination 2025.</p><br>
+
+      <table>
+        <tr>
+          <th style="text-align: center;">Important Dates</th>
+          <th style="text-align: center;">Application Fee</th>
+        </tr>
+          <td>
+            <ul>
+              <li>Application Start Date: 28-05-2025</li>
+              <li>Application Last Date: 17-06-2025</li>
+              <li>Admit Card: A week before before the exam</li>
+              <li>Exam Date: 14-09-2025</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>SC/ ST/ Female Candidates: Rs.0/-</li>
+              <li>All Other Candidates: Rs.100/-</li>
+              <li>Form Filling Fee: Rs. 50/-</li>
+            </ul>
+          </td>
+          <tr>
+          <th style="text-align: center;">Age Limit</th>
+          <th style="text-align: center;">Total Post</th>
+        </tr>
+          <td>
+            <ul>
+              <li>Only unmarried male/ female candidates born not earlier than 01st January 2007 and not later than 1st January 2010 are eligible.</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>406</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table>
+        <tr>
+          <th colspan="2" style="text-align: center;">UPSC NDA 2 Recruitment 2025 Eligibility Criteria</th>
+        </tr>
+        <tr>
+          <td><b>(i.) For Army Wing of National Defence Academy </b> :- 12th Class pass of the 10+2 pattern of School Education or equivalent examination conducted by a State Education Board or a University.</td>
+        </tr>
+        <tr>
+          <td><b>(ii.) For Air Force and Naval Wings of National Defence Academy and for the 10+2 Cadet Entry Scheme at the Indian Naval Academy </b> :- 12th Class pass with Physics, Chemistry and Mathematics of the 10+2 pattern of School Education or equivalent conducted by a State Education Board or a University.</td>
+        </tr>
+        <tr>
+          <td><b>Note </b> :- Candidates who are appearing in the 12th Class under the 10+2 pattern of School Education or equivalent examination can also apply for this examination.</td>
+        </tr>
+        <tr>
+          <td><b>Documents Required</b> :- <br><br>
+          <ul>
+            <li>Educational Qualification</li>
+            <li>Caste/ OBC/ EWS Certificate</li>
+            <li>Aadhar Card</li>
+            <li>Passport Size Photo</li>
+            <li>Mobile No.</li>
+            <li>E-mail Id</li>
+          </ul>
+          </td>
+        </tr>
+      </table>
+
+
+      <table>
+        <tr>
+          <th colspan="2" style="text-align: center;">UPSC NDA 2 Vacancy 2025 Details</th>
+        </tr>
+        <tr>
+          <td style="text-align: center;"><b>Exam Name</b></td>
+          <td style="text-align: center;"><b>No. of Posts</b></td>
+        </tr>
+        <tr>
+          <td>National Defence Academy	</td>
+          <td><b>Army</b><br>208 (including 10 for female candidates) <br><br><b>Navy</b><br>42 (including 05 for female candidates) <br><br><b>Air Force</b> <ol><li>Flying - 92 (including 02 for female candidates)</li><li>Ground Duties (Tech) - 18 (including 02 for female candidates)</li><li>Ground Duties (Non Tech) - 10 (including 02 for female candidates)</li></ol></td>
+        </tr>
+        <tr>
+          <td>Naval Academy (10+2 Cadet Entry Scheme)	</td>
+          <td>36 (including 04 for female candidates)</td>
+        </tr>
+        <tr>
+          <td style="text-align: center;"><b>Total Post</b></td>
+          <td><b>406</b></td>
+        </tr>
+      </table>
+    </section>
+
+
+
+
+    <section>
+      <img src="NotiFication Img/cds.jpeg" alt="UPSC CDS 2 Exam 2025 Apply Online Form" class="notification-image" /><br>
+      <p><b>Union Public Service Commission (UPSC) </b> invites online applications for recruitment to the post of Combined Defence Service (CDS) Examination II 2025 for 453 vacancies. The Combined Defence Services Examination (II), 2025 will be conducted by the Union Public Service Commission on 14th September 2025. All eligible and interested male and female candidates can apply online from 28th May 2025 to till the application last date 09th June 2025 for UPSC CDS 2 Examination 2025.</p><br>
+
+      <table>
+        <tr>
+          <th style="text-align: center;">Important Dates</th>
+          <th style="text-align: center;">Application Fee</th>
+        </tr>
+          <td>
+            <ul>
+              <li>Application Start Date: 28-05-2025</li>
+              <li>Application Last Date: 17-06-2025</li>
+              <li>Exam Date: 14-09-2025</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>SC/ ST/ Female Candidates: Rs.0/-</li>
+              <li>All Other Candidates: Rs.200/-</li>
+              <li>Form Filling Fee: Rs. 50/-</li>
+            </ul>
+          </td>
+          <tr>
+          <th style="text-align: center;">Age Limit</th>
+          <th style="text-align: center;">Total Post</th>
+        </tr>
+          <td>
+            <ul>
+              <li>See Below Course Wise Age Limit</li>
+              <li>(For Age Relaxation See Notification)</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>453</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table>
+        <tr>
+          <th colspan="2" style="text-align: center;">CDS Age Limit For Examination 2025</th>
+        </tr>
+        <tr>
+          <td style="text-align: center;"><b>Course Name</b></td>
+          <td style="text-align: center;"><b>Age Limit</b></td>
+        </tr>
+        <tr>
+          <td>For IMA</td>
+          <td>Unmarried male candidates born not earlier than 2nd July, 2002 and not later than 1st July, 2007 only are eligible.</td>
+        </tr>
+        <tr>
+          <td>For Indian Naval Academy</td>
+          <td>Unmarried male candidates born not earlier than 2nd July, 2002 and not later than 1st July, 2007 only are eligible.</td>
+        </tr>
+        <tr>
+          <td>For Air Force Academy</td>
+          <td>20 to 24 years as on 1st July, 2026 i.e. born not earlier than 2nd July, 2002 and not later than 1st July, 2006 Upper age limit for candidates holding valid and current Commercial Pilot Licence issued by DGCA (India) is relaxable upto 26 yrs. i.e. born not earlier than 2nd July, 2000 and not later than 1st July, 2006 only are eligible.</td>
+        </tr>
+        <tr>
+          <td>For Officers' Training Academy - (SSC Course for men)</td>
+          <td>Unmarried male candidates born not earlier than 2nd July, 2001 and not later than 1st July, 2007 only are eligible.</td>
+        </tr>
+        <tr>
+          <td>For Officers' Training Academy - (SSC Women Non-Technical Course)</td>
+          <td>Unmarried women, issueless widows who have not remarried and issueless divorcees (in possession of divorce documents) who have not remarried are eligible. They should have been born not earlier than 2nd July, 2001 and not later than 1st July, 2007.</td>
+          </tr>
+      </table>
+
+      <table>
+        <tr>
+          <th colspan="2" style="text-align: center;">CDS 2 Recruitment 2025 Eligibility Criteria</th>
+        </tr>
+        <tr>
+          <td>I.M.A. and Officers' Training Academy, Chennai</td>
+          <td>Degree of a recognised University or equivalent.</td>
+        </tr>
+        <tr>
+          <td>Indian Naval Academy</td>
+          <td>Degree in Engineering from a recognised University/ Institution.</td>
+        </tr>
+        <tr>
+          <td>Air Force Academy</td>
+          <td>Degree of a recognised University (with Physics and Mathematics at 10+2 level) or Bachelor of Engineering. <br><br>
+                Graduates with first choice as Army/ Navy/ Air Force are to submit proof of Graduation/ provisional certificates on the date of commencement of the SSB Interview at the SSB. <br><br>
+                Candidates who are studying in the final year/ semester Degree course and have yet to pass the final year degree examination can also apply.</td>
+        </tr>
+        <tr>
+          <td>Documents Required</td>
+          <td>
+            <ol>
+              <li>Educational Qualification</li>
+              <li>Caste/ OBC/ EWS Certificate</li>
+              <li>Aadhar Card</li>
+              <li>Passport Size Photo</li>
+              <li>Singature</li>
+              <li>Mobile Number</li>
+              <li>E-mail ID</li>
+            </ol>
+          </td>
+        </tr>
+      </table>
+
+
+      <table>
+        <tr>
+          <th colspan="2" style="text-align: center;">UPSC CDS 2 Vacancy 2025 Details</th>
+        </tr>
+        <tr>
+          <td style="text-align: center;"><b>Course Name</b></td>
+          <td style="text-align: center;"><b>No. of Posts</b></td>
+        </tr>
+        <tr>
+          <td>1. Indian Military Academy, Dehradun - 161st (DE) Course commencing in July 2026 [including 13 vacancies reserved for NCC C Certificate (Army Wing) holders]</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>2. Indian Naval Academy, Ezhimala - Course commencing in July, 2026 Executive Branch (General Service)/ Hydro [including 06 vacancies for NCC C Certificate (Naval Wing) holders and 02 for Hydro]</td>
+          <td>26</td>
+        </tr>
+        <tr>
+          <td>3. Air Force Academy, Hyderabad - (Pre-Flying) Training Course commencing in July, 2026 i.e. 220 F(P) Course. [including 03 vacancies reserved for NCC C Certificate (Air Wing) holders through NCC Special Entry]</td>
+          <td>32</td>
+        </tr>
+        <tr>
+          <td>4. Officers' Training Academy, Chennai (Madras) 124th SSC (Men) (NT) (UPSC) Course Commencing in October, 2026.</td>
+          <td>276</td>
+        </tr>
+        <tr>
+          <td>5. Officers' Training Academy, Chennai (Madras) 124th SSC Women (NT) (UPSC) Course commencing in, October, 2026.</td>
+          <td>19</td>
+        </tr>
+        <tr>
+          <td style="text-align: center;"><b>Total Post</b></td>
+          <td><b>453</b></td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <img src="NotiFication Img/bed.jpeg" alt="Bihar CET BEd Entrance Exam Answer Key 2025 " class="notification-image" /><br>
+      <p><b>Lalit Narayan Mithila University (LNMU)</b> has released online answer key in PDF for Bihar BEd Combined Entrance Test CET BED 2025 for two year regular course for admission into government and private institutes. The entrance test was successfully conducted on 28th May 2025 across the state as per notified exam center by the University. All eligible candidates can download answer key online at LNMU BEd official website biharcetbed-lnmu.in from 28th May 2025 onwards for CET BED 2025.</p><br>
+
+      <table>
+        <tr>
+          <th colspan="2" style="text-align: center;">Bihar BEd Answer Key 2025 Summary</th>
+        </tr>
+        <tr>
+          <td>University Name</td>
+          <td>Lalit Narayan Mithila University</td>
+        </tr>
+        <tr>
+          <td>Test Name</td>
+          <td>Bihar BEd Combined Entrance Test 2025</td>
+        </tr>
+        <tr>
+          <td>Entrance Exam Date</td>
+          <td>28 May 2025 (Wednesday)</td>
+        </tr>
+        <tr>
+          <td>Answer Key Status	</td>
+          <td>Released</td>
+        </tr>
+        <tr>
+          <td>Bihar BEd Answer Key Release Date</td>
+          <td>28 May 2025</td>
+        </tr>
+        <tr>
+          <td>Download Answer Key</td>
+          <td><a href="https://biharcetbed-lnmu.in/couch/uploads/file/b-ed-answer-key(1).pdf">Download PDF</a></td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <img src="NotiFication Img/BCECE.jpeg" alt="BCECE Admit Card" class="notification-image" /><br>
+      <p><b>BCECE Board (BCECEB)</b> has released online admit card for Bihar Combined Entrance Competitive Examination
+        (BCECE)
+        2025 for admission into Pharmacy stream, medical stream, agriculture stream and engineering stream. The BCECE
+        2025 examination will be held on 07th and 8th June 2025 in various districts of Bihar as per the notified
+        examination center by the board. All eligible applicants can download admit card from 28th May 2025 onwards for
+        Bihar Combined Entrance Competitive
+        Examination 2025.</p><br>
+
+      <table>
+        <tr>
+          <th colspan="2" style="text-align: center;">BCECE Admit Card 2025 Summary</th>
+        </tr>
+        <tr>
+          <td>Board Name</td>
+          <td>Bihar Combined Entrance Competitive Examination Board</td>
+        </tr>
+        <tr>
+          <td>Test Name</td>
+          <td>Bihar Combined Entrance Competitive Examination (BCECE) 2025</td>
+        </tr>
+        <tr>
+          <td>BCECE Admit Card Release Date</td>
+          <td>28 May 2025</td>
+        </tr>
+        <tr>
+          <td>BCECE Exam Date</td>
+          <td>07 and 08 June 2025</td>
+        </tr>
+        <tr>
+          <td>Documents Required</td>
+          <td>Registration Number,Password & Mobile Number</td>
+        </tr>
+      </table>
+    </section>
+
+
+    <section>
+      <img src="NotiFication Img/BTsc ph.jpeg" alt="BTSC Pharmacist Admit Card" class="notification-image" /><br>
+      <p><b>Bihar Technical Service Commission (BTSC)</b> has released online computer based test (CBT) admit card for
+        recruitment to the post of Pharmacist for 2473 vacancies under Health Department, Bihar. The Computer Based Test
+        shall be conducted on 04th June 2025 in various districts of Bihar in two/ three sitting as per the notified
+        examination center by the commission. All eligible male and female candidates can download admit card online
+        from 28th May 2025 onwards for Pharmacist recruitment in Bihar Health Department.</p><br>
+
+      <table>
+        <tr>
+          <th colspan="2" style="text-align: center;">BTSC Pharmacist Admit Card 2025 Summary</th>
+        </tr>
+        <tr>
+          <td>Recruitment Agency</td>
+          <td>Bihar Technical Service Commission</td>
+        </tr>
+        <tr>
+          <td>Post Name</td>
+          <td>Pharmacist</td>
+        </tr>
+        <tr>
+          <td>Advertisement No.</td>
+          <td>22/2025</td>
+        </tr>
+        <tr>
+          <td>Total Post</td>
+          <td>2473</td>
+        </tr>
+        <tr>
+          <td>BTSC Pharmacist Admit Card Release Date</td>
+          <td>28 May 2025</td>
+        </tr>
+        <tr>
+          <td>BTSC Pharmacist Exam Date</td>
+          <td>04 June 2025</td>
+        </tr>
+        <tr>
+          <td>Documents Required</td>
+          <td>User Id & Password</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="MU">
+      <img src="NotiFication Img/MU.jpeg" alt="Munger University UG 2025 (2025-29)" class="notification-image" /><br>
+      <p><b>Munger university </b> invites online applications for admission in 1st semester of undergraduate UG (B.A/
+        B.Sc/ B.Com) course for the academic session 2025-29 for 4 year programme under Choice Based Credit System
+        (CBCS). All eligible and interested candidates can apply online apply from 23rd May 2025 to till the application
+        last date 10th June 2025 for UG 1st semester admission session 2025-29.</p><br>
+
+      <table>
+        <tr>
+          <th style="text-align: center;">Important Dates</th>
+          <th style="text-align: center;">Application Fee</th>
+        </tr>
+        <tr>
+          <td>
+            <ul>
+              <li>Application Start Date: 23-05-2025</li>
+              <li>Application Last Date: 10-06-2025</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>Application Fee: Rs.1035/-</li>
+              <li>Form Filling Fee: Rs. 50/-</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <th colspan="2" style="text-align: center;">Munger University UG Admission 2025 Eligibility Criteria</th>
+        </tr>
+        <tr>
+          <td>Recruitment Agency</td>
+          <td>Bihar Technical Service Commission</td>
+        </tr>
+        <tr>
+          <td>UG (Arts)</td>
+          <td>Candidates who have passed intermediate examination I.A./ I.Sc./ I.Com or +2 of Bihar School Examination
+            Board or equivalent examination offered by other approved National / State Board.</td>
+        </tr>
+        <tr>
+          <td>UG (Commerce)</td>
+          <td>Candidates who have passed intermediate examination I.A./ I.Sc./ I.Com or +2 of Bihar School Examination
+            Board or equivalent examination offered by other approved National / State Boards.</td>
+        </tr>
+        <tr>
+          <td>UG (Science)</td>
+          <td>Candidates who have passed intermediate examination I.Sc. or +2 Science Stream only of Bihar School
+            Examination Board or equivalent examinations offered by other approved National / State Boards.</td>
+        </tr>
+        <tr>
+          <td>Documents Required</td>
+          <td>
+            <ol>
+              <li>Intermediate Marksheet</li>
+              <li>Matric Marksheet</li>
+              <li>Aadhar Card</li>
+              <li>Passport Size Photo</li>
+              <li>Singature</li>
+              <li>Mobile Number</li>
+              <li>E-mail ID</li>
+            </ol>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <img src="NotiFication Img/NTPC.jpeg" alt="NTPC Graduate level" class="notification-image" /><br>
+      <p><b>Railway Recruitment Board (RRB) </b> has released online admit card and exam city intimation slip for
+        recruitment to the post of Station Master, Goods Train Manager, Junior Account Assistant-cum- Typist, Senior
+        Clerk-cum Typist and Chief Commercial-cum Ticket Supervisor as Graduate Level post for 8113 vacancies for
+        Centralised Employment Notice (CEN) No 05/2024. The computer based test (CBT) examination shall be conducted
+        between 05 June 2025 to 24 June 2025 across the country as per the notified examination center by the board. All
+        eligible applicants can download their exam city intimation slip online from 26th May 2025 onwards for Graduate
+        Level Post recruitment in all Railway Recruitment Boards.</p><br>
+
+      <table>
+        <tr>
+          <th colspan="2" style="text-align: center;">RRB NTPC Admit Card 2025 Summary</th>
+        </tr>
+        <tr>
+          <td>Recruitment Agency</td>
+          <td>Railway Recruitment Board (RRB)</td>
+        </tr>
+        <tr>
+          <td>Post Name</td>
+          <td>Graduate Level Posts</td>
+        </tr>
+        <tr>
+          <td>CEN No.</td>
+          <td>05/2024</td>
+        </tr>
+        <tr>
+          <td>Total Post</td>
+          <td>8113</td>
+        </tr>
+        <tr>
+          <td>Exam City Status</td>
+          <td>Released</td>
+        </tr>
+        <tr>
+          <td>RRB NTPC Exam City Release Date</td>
+          <td>26 May 2025</td>
+        </tr>
+        <tr>
+          <td>RRB NTPC Graduate Level Exam Date</td>
+          <td>05 to 24 June 2025</td>
+        </tr>
+        <tr>
+          <td>Documents Required</td>
+          <td>Registration No. & D.O.B</td>
+        </tr>
+      </table>
+    </section>
+
+
+    <section>
+      <img src="NotiFication Img/PM.jpeg" alt="DCECE Bihar Polytechnic Admit Card 2025"
+        class="notification-image" /><br>
+      <p><b>Bihar Combined Entrance Competitive Examination (BCECE) </b> Board has released online admit card for Diploma
+          Certificate Entrance Competitive Examination DCECE (PE/ PMM/ PM) 2025 for admission in polytechnic or diploma
+          course. The entrance examination shall be held on 31st & 01st June 2025 in various districts of Bihar as per
+          the notified examination center by the board. All eligible candidates can download admit card from 22nd May
+          2025 onwards for Bihar Polytechnic admission through Diploma Certificate Entrance Competitive Examination
+          DCECE 2025.</p><br>
+
+      <table>
+        <tr>
+          <th colspan="2" style="text-align: center;">DCECE Admit Card 2025 Summary</th>
+        </tr>
+        <tr>
+          <td>Board Name</td>
+          <td>Bihar Combined Entrance Competitive Examination Board</td>
+        </tr>
+        <tr>
+          <td>Test Name</td>
+          <td>Diploma Certificate Entrance Competitive Examination 2025</td>
+        </tr>
+        <tr>
+          <td>DCECE Admit Card Release Date </td>
+          <td>22 May 2025</td>
+        </tr>
+        <tr>
+          <td>Bihar Polytechnic Exam Date 2025</td>
+          <td>31 May and 01 June 2025</td>
+        </tr>
+        <tr>
+          <td>Documents Required</td>
+          <td>Registration Number,Password & Mobile Number</td>
+        </tr>
+      </table>
+    </section>
+
+
+
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Bittu Internet. All Rights Reserved.</p>
+  </footer>
+</body>
+
+</html>

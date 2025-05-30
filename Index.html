@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <meta name="description" content="Bittu Internet is your one-stop digital solution in town. Offering printing, scanning, online form fill-up, resume creation, lamination, and other essential internet services.">
+  <meta name="keywords" content="Bittu Internet, Bittu Internet Lakhisarai, cyber cafe, print, scan, form fill, resume service, lamination, internet cafe, cyber cafe lakhisarai, lakhisarai">
+
+  <title>Bittu Internet | Cyber Cafe & Digital Services</title>
+
+  <!-- CSS Styling -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      background-color: #007BFF;
+      color: white;
+      padding: 20px 30px;
+    }
+
+    .header-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo {
+      height: 80px;
+      width: auto;
+      margin-right: 20px;
+    }
+
+    .header-text h1 {
+      font-size: 2rem;
+    }
+
+    .header-text p {
+      font-size: 1rem;
+      margin-top: 5px;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: #0056b3;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color: #000;
+    }
+
+    .slideshow img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+      z-index: 0;
+    }
+
+    .slideshow img.active {
+      opacity: 1;
+      z-index: 0;
+    }
+
+    .hero-text {
+      position: relative;
+      z-index: 1;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: white;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 90%;
+    }
+
+    .hero-text h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .hero-text p {
+      font-size: 1.2rem;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .hero-text h2 {
+        font-size: 1.8rem;
+      }
+
+      .hero-text p {
+        font-size: 1rem;
+      }
+
+      nav ul {
+        flex-direction: column;
+      }
+
+      nav ul li {
+        margin: 5px 0;
+      }
+    }
+    /* Navigation Styling */
+nav {
+  background-color: #0056b3;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .nav-container{
+    justify-content: space-between;
+  }
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #0056b3;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0;
+    z-index: 1000;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
+.header-container img{
+    border-radius: 50%;
+}
+
+    
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <img src="img/logo.png" alt="Bittu Internet Logo" class="logo" />
+      <div class="header-text">
+        <h1>Bittu Internet</h1>
+        <p>Your One-Stop Digital Solution</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+  <div class="nav-container">
+    
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="notifications.html">Latest Notification</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+  </div>
+</nav>
+
+
+  <!-- Main Hero Section -->
+  <main>
+    <section class="hero">
+      <div class="slideshow">
+        <img src="img/1.png" class="active" alt="Slide 1">
+        <img src="img/2.png" alt="Slide 2">
+        <img src="img/3.png" alt="Slide 3">
+        <img src="img/4.png" alt="Slide 4">
+        <img src="img/5.png" alt="Slide 5">
+      </div>
+      <div class="hero-text">
+        <h2>Welcome to Bittu Internet</h2>
+        <p>All your digital needs in one place — print, scan, form fill, resume, and more!</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Bittu Internet. All Rights Reserved.</p>
+  </footer>
+
+  <!-- JavaScript for Slideshow -->
+  <script>
+    const slides = document.querySelectorAll('.slideshow img');
+    let currentSlide = 0;
+
+    function showNextSlide() {
+      slides[currentSlide].classList.remove('active');
+      currentSlide = (currentSlide + 1) % slides.length;
+      slides[currentSlide].classList.add('active');
+    }
+
+    setInterval(showNextSlide, 3000);
+
+  
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('navLinks');
+
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+
+  </script>
+</body>
+</html>
